@@ -1,7 +1,7 @@
 <h1 align="center">react-china-division</h1>
 
 <p align="center">
-react-china-division
+React + Ts 实现中国省市级联选择器
 </p>
 
 <p align="center">
@@ -21,6 +21,12 @@ react-china-division
 > bilibili video has been published ↓
 
 [【编程】react 实现省市级选择器，不用后端写 api 了](https://www.bilibili.com/video/BV1AK411m7g3/)
+
+## 📝 Case
+
+![image](https://user-images.githubusercontent.com/61035508/199271093-e3db88b9-6118-43f4-9d52-ce5e0df1f70f.png)
+
+
 
 ## 📄 License
 
