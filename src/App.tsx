@@ -16,19 +16,19 @@ type ChidDivisionType = {
   value?: string;
   children?: Array<ChidDivisionType>;
 };
-
-areas.forEach((area: ChidDivisionType) => {
-  const matchCity: ChidDivisionType = cities.filter(
-    (city) => city.code === area.cityCode
-  )[0];
-  if (matchCity) {
-    matchCity.children = matchCity.children || [];
-    matchCity.children.push({
-      label: area.name,
-      value: area.code,
-    });
-  }
-});
+// TODO: 如果需要区级，可以打开注释
+// areas.forEach((area: ChidDivisionType) => {
+//   const matchCity: ChidDivisionType = cities.filter(
+//     (city) => city.code === area.cityCode
+//   )[0];
+//   if (matchCity) {
+//     matchCity.children = matchCity.children || [];
+//     matchCity.children.push({
+//       label: area.name,
+//       value: area.code,
+//     });
+//   }
+// });
 
 cities.forEach((city: ChidDivisionType) => {
   const matchProvince: ChidDivisionType = provinces.filter(
