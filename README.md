@@ -18,12 +18,9 @@ react-china-division
 
 ## ⚡️ B 站
 
+> bilibili video has been published ↓
 
-## 🧑‍💻 Contribution
-
-Thank you to all the people who already contributed to my project!
-
-<a href="https://github.com/Chocolate1999/react-china-division/graphs/contributors"><img src="https://github.com/Chocolate1999/react-china-division/blob/main/CONTRIBUTORS.svg" /></a>
+[【编程】react 实现省市级选择器，不用后端写 api 了](https://www.bilibili.com/video/BV1AK411m7g3/)
 
 ## 📄 License
 
